@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.board-top-headings {
+  width: 510px;
+}
+
+.board-top-headings div {
+  display: inline-block;
+  width: 100px;
+  height: 25px;
+  border: 1px solid black;
+}
+
+.board-top-headings div span {
+  display: flex;
+  justify-content: center;;
+}
+
+.board-side-headings {
+  position: relative;
+  right: 2em;
+  bottom: 33em;
+  height: 500px;
+  width: 25px;
+}
+
+.board-side-headings div {
+  display: block;
+  height: 100px;
+  width: 25px;
+  border: 1px solid black;
+  margin-bottom: 3px;
+}
+
+.board-side-headings div span {
+  display: inline-block;
+  padding-top: 2.5em;
+  padding-left: 25%;
+}
+
+.board-wrapper {
+  max-width: 510px;
+}
+
+.square {
+  display: inline-block;
+  width: 98px;
+  height: 98px;
+  border: 2px solid blue;
+}
+
+.hit-yes {
+  font-color: red;
+}
+
+.your-ship-location {
+  border: 2px dotted green;
+  padding: 3px;
+}
+
+.your-ship-hit {
+  border: 2px dashed navy;
+  padding: 3px;
+}
+
+.miss {
+  background-color: lightgray;
+  padding: 5px;
+}
+
+.hit {
+  background-color: orangered;
+  padding: 5px;
+}
